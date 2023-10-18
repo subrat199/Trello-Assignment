@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.selectTag{
+  align-items: left;
+  text-align: left;
+  display: block;
+  background-color: rgb(6, 111, 248);
+  width: 100%;
+  padding: 0 10px;
+  font-size:xx-large;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+
+.board{
+  background :linear-gradient(
+        rgb(6, 111, 248) 0%,
+        rgb(45, 203, 243) 100%
+      );
+  padding: 20px;
+  /* height: 100vh; */
+}
+
+
+.flex{
+  flex-wrap: wrap;
+  /* position: relative; */
+  gap:20px;
+   font-weight: 500;
+  justify-content: space-between;
+  
+}
+
+.stages{
+  min-width: 200px;
+  width: 22%;
+  /* margin: auto; */
+  border-radius: 5px;
+  text-align: left;
+  padding: 5px;
+  background-color: rgb(201, 216, 216);
+}
+
+.Tasks{
+  text-align: left;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 5px;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.1s;
+  /* border: 10px solid red; */
+}
+
+.Tasks:hover{
+  box-shadow: 0 0 5px black;
+  transform: scale(1.03);
+}
+
+.addCard{
+  font-weight: 600;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.inputCard{
+  border:1px solid black;
+}
+.inputCard:focus{
+  border-color: red;
+}
+
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
